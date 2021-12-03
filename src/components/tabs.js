@@ -24,7 +24,7 @@ const Tabs = (topics) => {
     tabDiv.classList.add('tab')
     tabDiv.textContent = topic
 
-    dTopics.appendChild
+    dTopics.appendChild(tabDiv);
   })
 
   return dTopics;
@@ -42,7 +42,8 @@ const tabsAppender = (selector) => {
   //
   axios.get('http://localhost:5000/api/topics')
   .then(resp => {
-    document.querySelector(`${selector}`).appendChild(Tabs(resp.data.topics))
+    const aTopic = document.querySelector(selector)
+    aTopic.appendChild(Tabs(resp.data.topics))
   }).catch(error => {
     console.log(error)
   })
@@ -51,5 +52,6 @@ const tabsAppender = (selector) => {
 
 
 }
+
 
 export { Tabs, tabsAppender }
