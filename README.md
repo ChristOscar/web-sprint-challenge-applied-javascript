@@ -13,7 +13,7 @@ You are not allowed to collaborate during the sprint challenge.
 - [x] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
 - [x] Open the assignment in Canvas and click on the "Set up git" option.
 - [x] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submission.
+- [x] Check to see that Codegrade has accepted your git submission.
 
 ## Project Instructions
 
@@ -27,10 +27,10 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Instructions
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to `http://localhost:3000`
+- [x] Navigate to the root of the project with your command line.
+- [x] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [x] Run `npm start` to compile the project and serve it.
+- [x] Navigate Chrome to `http://localhost:3000`
 - [ ] In a separate terminal, run `npm test` to run tests.
 
 **Steps Required for MVP:**
@@ -60,7 +60,12 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Demonstrate your understanding of this week's concepts by answering the following questions:
 
 1. What is the DOM?
+- The document in which everything sits upon 
 2. What is an event?
+- An interaction with the document 
 3. What is an event listener?
+- Event listener is a way to communicate to the dom when a user clicks or presses a key do this action 
 4. Why would we convert a NodeList into an Array?
+- better access to all of an arrays methods
 5. What is a component?
+- to enable us to create custom elements 
